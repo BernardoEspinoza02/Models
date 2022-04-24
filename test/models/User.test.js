@@ -1,12 +1,4 @@
-describe("Prueba de jest", () => {
-    test ("prueba 1", () => {
-        expect(10).toBe(10)
-    })
-
-})
-
-/*
-const User = require ('./user')
+const User = require ('./../../app/models/User')
 
 describe("Unit tests for User class", () => {
 
@@ -20,7 +12,17 @@ describe("Unit tests for User class", () => {
         expect(user.username).toBe("Carlogilmar")
         expect(user.name).toBe("Carlo")
         expect(user.bio).toBe("Bio")
-        expect(user.dateCreated).toBe("dataCreated")
-        expect(user.lastUpdated).toBe("lastUpdate")
+        expect(user.dateCreated).toBe("dateCreated")
+        expect(user.lastUpdated).toBe("lastUpdated")
     })
-}) */
+}) 
+
+
+/*
+ describe("Prueba de jest", () => {
+    test ("prueba 1", () => {
+        expect(10).toBe(10)
+    })
+
+})
+*/
