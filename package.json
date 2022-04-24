@@ -15,5 +15,8 @@
     "twitter"
   ],
   "author": "bernardo",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
