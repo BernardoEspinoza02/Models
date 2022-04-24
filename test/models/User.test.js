@@ -1,3 +1,11 @@
+describe("Prueba de jest", () => {
+    test ("prueba 1", () => {
+        expect(10).toBe(10)
+    })
+
+})
+
+/*
 const User = require ('./user')
 
 describe("Unit tests for User class", () => {
@@ -15,4 +23,4 @@ describe("Unit tests for User class", () => {
         expect(user.dateCreated).toBe("dataCreated")
         expect(user.lastUpdated).toBe("lastUpdate")
     })
-})
+}) */
