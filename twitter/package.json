@@ -1,0 +1,19 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "model",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "model"
+  },
+  "keywords": [
+    "model",
+    "twitter"
+  ],
+  "author": "bernardo",
+  "license": "ISC"
+}
